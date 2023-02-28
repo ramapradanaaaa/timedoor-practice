@@ -1,0 +1,265 @@
+ html {
+   line-height: 30px;
+ }
+
+ body {
+   background-size: 1700px;
+ }
+
+ header {
+   color: white;
+   padding: 10px;
+   margin: -9px;
+   margin-bottom: 0px;
+   background: #EEEEEE url("../images/logo.jpg") no-repeat center;
+   background-size: 100px;
+ }
+
+ main {
+   background-color: #d8e3e7;
+   padding: 10px 0px;
+   margin: 50px;
+   border-radius: 20px;
+   box-shadow: 3px 3px #F8F8F8;
+   text-align: center;
+   background: linear-gradient(#F8F8F8, white);
+ }
+
+ footer {
+   padding: 10px 50px;
+   margin: 50px -7px -5px -7px;
+   background: url("../images/logo.png") right repeat-y #393e46;
+   background-size: 50px;
+ }
+
+ h1 {
+   text-align: center;
+   font-size: 25px;
+ }
+
+ h2 {
+   text-align: center;
+   font-size: 35px;
+   color: black;
+ }
+
+ h3 {
+   color: #495464;
+ }
+
+ h4 {
+   color: black;
+   font-size: 25px;
+ }
+
+ p {
+   font-size: 20px;
+   color: black
+ }
+
+ span {
+   color: black;
+ }
+
+ table {
+   margin: auto;
+   text-align: center;
+ }
+
+ img {
+   width: 130px;
+   margin: 10px auto;
+ }
+
+ a,
+ ul,
+ li {
+   font-size: 18px;
+   color: white;
+   text-decoration: none;
+ }
+
+ div {
+   color: white;
+   width: 1200px;
+   text-align: center;
+ }
+
+ a:hover {
+   color: #52616B;
+ }
+
+ .flex {
+   display: flex;
+ }
+
+ .bg-flex {
+   margin: 30px;
+   height: 600px;
+ }
+
+ .footer-div {
+   margin-right: 50px;
+   width: 700px;
+   padding: 10px;
+ }
+
+ .footer-h2 {
+   font-size: 50px;
+   color: white;
+   line-height: 45px;
+ }
+
+ .footer-span {
+   color: gold;
+ }
+
+ #beginnerYoga {
+   background: url("../images/beginner_yoga.jpg") no-repeat;
+   background-size: 350px;
+   border-radius: 20px;
+ }
+
+ #intermediateYoga {
+   background: url("../images/intermediate_yoga.jpg") no-repeat;
+   background-size: 350px;
+   border-radius: 20px;
+ }
+
+ #masterYoga {
+   background: url("../images/master_yoga.jpg") no-repeat;
+   background-size: 350px;
+   border-radius: 20px;
+ }
+
+ #beginnerWl {
+   background: url("../images/beginner_wl.jpg") no-repeat;
+   background-size: 450px;
+   border-radius: 20px;
+ }
+
+ #intermediateWl {
+   background: url("../images/intermediate_wl.jpg") no-repeat;
+   background-size: 450px;
+   border-radius: 20px;
+ }
+
+ #masterWl {
+   background: url("../images/master_wl.jpg") no-repeat;
+   background-size: 450px;
+   border-radius: 20px;
+ }
+
+ .img-cook,
+ .img-product {
+   width: 270px;
+ }
+
+ .img-cook:hover {
+   width: 300px;
+   transition: 1s;
+ }
+
+ .div-padding {
+   padding: 10px 0px;
+   margin-left: 80px;
+ }
+
+ .div-cook {
+   color: #393e46;
+ }
+
+ .div-cook:hover {
+   color: white;
+ }
+
+ a {
+   margin-right: 20px;
+   color: black;
+ }
+
+ nav {
+   float: right;
+ }
+
+ .p-price {
+   background-color: gold;
+   color: black;
+   border-radius: 50px;
+   font-size: 25px;
+ }
+
+ .img-product:hover {
+   width: 250px;
+   transition: 1s;
+ }
+
+ .color-h3 {
+   color: #495464;
+   font-size: 35px;
+ }
+
+ .body-h3 {
+   color: #495464;
+   font-size: 30px;
+   text-align: center;
+ }
+
+ .header-h1 {
+   color: black;
+   text-align: left;
+ }
+
+ .header-h3 {
+   color: gold;
+   font-size: 30px;
+ }
+
+ .footer-h3 {
+   color: gold;
+ }
+
+ .img-li {
+   width: 30px;
+   margin: 10px;
+   display: block;
+ }
+
+ #pInFooter {
+   text-align: center;
+   color: grey;
+ }
+
+ .menubar {
+   float: right;
+   margin-right: 100px;
+   display: flex;
+ }
+
+ ul {
+   margin: 0px;
+   padding: 0px;
+ }
+
+ li {
+   margin-left: 10px;
+ }
+
+ .dropdown-content {
+   display: none;
+   position: fixed;
+   background-color: #f9f9f9;
+ }
+
+ .dropdown:hover .dropdown-content {
+   display: block;
+   width: 150px;
+ }
+
+ .dropdown-content li:hover {
+   background-color: #52616B;
+ }
+
+ .dropdown-content li:hover a {
+   color: white;
+ }
